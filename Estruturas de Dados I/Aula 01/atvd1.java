@@ -6,7 +6,7 @@ public class atvd1 {
         int vetor[] = new int [10];
 
         for (int i = 0; i < 10; i++){
-            System.out.print("Informe o número da posição "+(i+1)+" =");
+            System.out.print("Informe o número da posição "+(i+1)+" = ");
             vetor[i] = sc.nextInt();
         }
 
@@ -15,6 +15,6 @@ public class atvd1 {
             soma = soma + vetor[i];
         }
 
-        System.out.println("A soma da matriz e :" + soma);
+        System.out.println("A soma da matriz e : " + soma);
     }
 }
