@@ -1,0 +1,1 @@
+Este repositório foi feito para armazenar as tarefas do curso de Engenharia de Software na UNIVERSIDADE DE RIO VERDE.
