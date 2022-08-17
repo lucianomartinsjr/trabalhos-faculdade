@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class atvd8
 {
 	public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -27,9 +27,9 @@ public class Main
     
     soma = a[x]+a[y];
     
-    PulaLinha();
+    System.out.printf("\n"); 
     imprimeVetor(a);
-    PulaLinha();
+    System.out.printf("\n"); 
     System.out.printf("Soma das posições %d + %d = %d",x,y,soma);
     }
     
@@ -37,8 +37,5 @@ public class Main
         for(int i=0;i<vet.length;i++){
             System.out.printf("[%d]", vet[i]);
         }
-    }
-    static void PulaLinha(){
-        System.out.printf("\n"); 
     }
 }
