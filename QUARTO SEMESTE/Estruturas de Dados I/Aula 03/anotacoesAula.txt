@@ -1,0 +1,89 @@
+Métodos da classe STRING
+
+
+A String não é um tipo primitivo, é uma classse, sendo assim possui atributos,contrutores e métodos.
+
+declaração de STRING
+
+String s = new String();
+
+Os métodos da classe String são acionados adicionando um ponto final ao nome String, seguidos pelo nome do método
+a maioria dos Métodos são do tipo de RETORNO.
+
+length() - retorna o tamanho da String na variavel tipo int.
+    ex. String s = "Maria"
+    int tamanho = s.length();
+System.out.println("Qdt letras: "+tamanho);
+
+substring(int inicio, int fim) - usado para retornar uma String com as letras indicadas pelos parametros
+inicio e fim.
+    ex. String p = "caramelo"
+        string q = p.substring(4,8)
+
+        CARAMELO   ~> MELO
+        12345678      5678
+
+Não é possivel utilizar comparação na String por não ser um tipo primitivo, para isso, deve-se utilizar
+métodos.
+
+equals(String s) - Verifica se a string atual é igual a string que está dentro dos parenteses, retornando
+true ou false, porém é case SENSITIVE, ou seja bala != Bala
+    ex. String a = "bala";
+        String b = "bala";
+
+        if(a.equals(b))
+            System.out.println(São iguais);
+        else
+            System.out.println("Não são iguai"s");
+
+
+equalsIgnoreCase(String s) 
+
+
+
+contains(String s) - diz se a string atual possui a substring indica. retorna true ou false
+    String nome = "João da Silva Almeida")
+        if(nome.contains("Silva")
+            System.out.println("Familia Silva");
+        else
+            System.out.println("Não é da familida Silva");
+
+
+startsWith( String substring) - diz se a string atual COMEÇA com a substring indicada.
+retorna true ou false
+
+endsWith( String substring) - diz se a string atual TERMINA com a substring indicada.
+
+toUpperCase() - transforma os caracteres da String em letras MAIÚSCULAS
+
+toLowerCase() - transforma os caracteres da String em letras MINUSCULAS
+
+replace(String antiga, String nova) - substitui os caracteres indicados na primeira String pelos da segunda String
+retorna uma string
+
+replaceFirst(String antiga, String nova) - substitui a PRIMEIRA ocorrência.
+
+charAt(int posicao) - retorna o caractere na posição indicada ( começando em zero)
+retorna um char
+    ex. s="banana"
+        System.out.println(s.charAt(0))
+        = b
+    DICA
+     para pegar o ultimo caractere, utilizar s.chatAT(s.length()-1)
+
+trim() - omite espaçoes existentes no inicio e no final
+retorna um STRING
+    ex. s = " Vanessa ";
+    System.out.println(s.trim());
+    
+
+
+
+
+
+
+
+
+
+
+
