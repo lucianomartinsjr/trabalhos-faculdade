@@ -1,0 +1,22 @@
+1 -  Faça um programa que, a partir de uma string digitada pelo usuário, imprima:
+a) O número de caracteres da string.
+b) A string com todas suas letras em maiúsculo.
+c) O número de vogais da string.
+d) Se a string digitada começa com “UNI” (ignorando maiúsculas/minúsculas).
+e) Se a string digitada termina com “ADO” (ignorando maiúsculas/minúsculas).
+f) O número de dígitos (0 a 9) da string.
+g) Se a string é um palíndromo ou não.(Palíndromo palavra que de trás pra frente forma a mesma palavra EX: ana, ovo...)
+
+2- Escreva um programa que, a partir de um nome informado pelo usuário, exiba suas iniciais.
+As iniciais são formadas pela primeira letra de cada nome, sendo que todas deverão aparecer em maiúsculas na saída do programa. Note que os conectores e, do, da, dos, das, de, di, du não são considerados nomes e, portanto, não devem ser considerados para a obtenção das iniciais. As iniciais devem ser impressas em maiúsculas, ainda que o nome seja entrado todo em minúsculas.
+Exemplos:
+Maria das Graças Pimenta => MGP
+João Carlos dos Santos => JCS
+José da Silva => JS
+Pedro Pereira Teixeira => PPT
+
+3- Faça um programa que, a partir de um texto digitado pelo usuário, conte o número de caracteres total e o número de palavras (palavra é definida por qualquer sequência de caracteres delimitada por espaços em branco) e exiba o resultado.
+4- Escreva um método retiraVogais que receba uma string como parâmetro e remova todas as vogais (maiúsculas e minúsculas) dessa string, imprimindo a string modificada como resultado.
+5- Faça um programa em que o usuário digite uma palavra e o  programa diga quantas letras ‘ A ’ ela possui.
+
+6- Crie um programa em que o usuário digite 5 palavras. Depois ele poderá digitar outra palavra e o programa informa se ela já existe entre as 5 digitadas.
