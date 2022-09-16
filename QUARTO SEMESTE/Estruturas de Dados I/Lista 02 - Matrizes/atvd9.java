@@ -41,6 +41,5 @@ public class atvd9 {
         } else {
             System.out.println("A matriz nao e simetrica :c");
         }
-
     }
 }

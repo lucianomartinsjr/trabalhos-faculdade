@@ -15,13 +15,11 @@ public class atvd6 {
         for (int i = 0; i < 5; i++) {
             if (texto[i].trim().equals(texto[5]))
                 bolFind = true;
-        }
-
-        System.out.println("=-=-=-=-=-=-=-=-=-=-=-");
-        if(bolFind == true)
             System.out.println("\nPalavra encontrada"); 
-        else
-            System.out.println("\nPalavra nao encontrada");   
+        }
+        
+        if(bolFind == false)
+            System.out.println("\nPalavra nao encontrada");            
 
     }
 
