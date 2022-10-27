@@ -2,6 +2,7 @@ import java.util.*;
 import java.io.IOException;
 
 public class atvd4 {
+    
     public static Scanner sc = new Scanner(System.in);
     public static Queue filaDeImpressao = new LinkedList<>();
     public static Queue<Integer> qntdFolhasImpressao = new LinkedList<Integer>();
